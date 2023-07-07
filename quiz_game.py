@@ -9,5 +9,5 @@ print("Okay! Let's play :)")
 
 answer = input("What does CPU stand for? ")
 
-if answer == "central processing unit":
+if answer.upper() == "CENTRAL PROCESSING UNIT":
     print("Correct!")
